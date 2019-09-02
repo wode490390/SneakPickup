@@ -1,0 +1,12 @@
+main: cn.wode490390.nukkit.sneakpickup.SneakPickup
+name: "SneakPickup"
+description: "Sneak pickup plugin for Nukkit"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: POSTWORLD
+permissions:
+  sneakpickup.whitelist:
+    description: "Allows the player to pick up item without sneaking"
+    default: op
